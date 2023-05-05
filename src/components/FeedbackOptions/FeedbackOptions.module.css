@@ -1,0 +1,31 @@
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: inherit;
+    font-size: 18px;
+
+    width: 100px;
+    height: 40px;
+
+    /* background-color: none; */
+    color: black;
+    border: gray;
+    border-radius: 5px;
+
+    cursor: pointer;
+    /* transition: background-color var(----main-animation-hover); */
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgb(124, 119, 119);
+}
